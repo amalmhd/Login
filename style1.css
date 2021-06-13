@@ -1,0 +1,354 @@
+@font-face {
+    font-family: 'poppinsfont';
+    src: url(fonts/Poppins-Regular.ttf)
+    format('truetype');
+
+}
+@font-face {
+    font-family: 'poppinsfont';
+    src: url(fonts/Poppins-Bold.ttf)
+    format('truetype');
+    font-weight: bold;
+
+}
+
+
+@font-face {
+    font-family: 'med';
+    src: url(fonts/Poppins-Medium.ttf)
+    format('truetype');
+
+}
+
+*{
+    font-family: poppinsfont;
+}
+
+
+
+body{
+    margin: 0;
+    padding: 0;
+
+
+    height: 100vh;
+
+    background-image: linear-gradient(to top right, #09ffffaf 10%,#2d53d1e3 40%, #f120bd);
+
+}
+
+.rect{
+
+    position: fixed;
+    background-color: rgb(163, 213, 241);
+    
+    width: 170px;
+    height: 250px;
+    opacity: 10%;
+    border-radius: 7px;
+    
+    transform:rotate(-30deg);
+    left: -90px;
+    top: -20px;
+    
+}
+
+
+.rect2{
+
+    position: fixed;
+    background-color: rgb(255, 255, 255);
+    
+    width: 250px;
+    height: 550px;
+    opacity: 10%;
+    border-radius: 10px;
+    
+    transform:rotate(60deg);
+    bottom: -310px;
+    left: 220px;
+    
+}
+
+.rect3{
+
+    position: fixed;
+    background-color: rgb(14, 13, 13);
+    
+    width: 250px;
+    height: 440px;
+    opacity: 10%;
+    border-radius: 7px;
+    
+    transform:rotate(-30deg);
+
+    right: -170px;
+    top: 100px;
+
+    
+}
+
+
+
+
+.mainbox{
+    position:absolute;
+
+    background-color: rgb(255, 255, 255);
+
+    width: 300px;
+    height: 500px;
+
+    text-align: center;
+
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+
+    border-radius: 10px;
+       
+}
+
+h2{
+    position: relative;
+    font-size: 25px;
+    top: 10px;
+    
+    
+      
+}
+
+#username{
+    
+    position:absolute;
+
+    left: 30px;
+    top: 105px;
+
+    font-size: 12px;
+
+
+}
+
+.cust{
+    position: absolute;
+    color: silver;
+    left: 31.5px;
+    top: 135.5px;
+
+    font-size: 10px;
+    
+
+}
+
+#namebox{
+    position:absolute;
+    
+    top: 130px;
+
+    border: 0;
+    outline: 0;
+    border-bottom: solid 1px silver;
+    width: 75%;
+
+    font-size: 13px;
+    padding-left: 20px;
+    padding-bottom: 10px;
+
+    margin: auto;
+    left: 0;
+    right: 0;
+    
+}
+
+#namebox:focus{
+    border-bottom: 1px solid black;
+}
+
+#password{
+    position: absolute;
+
+    top: 165px;
+    left: 30px;
+
+    font-size: 12px;
+}
+
+
+.cust1{
+    position: absolute;
+    color: silver;
+    left: 31.5px;
+    top: 196.5px;
+
+    font-size: 10px;
+    
+
+}
+
+#passbox{
+    position: absolute;
+
+    top: 190px;
+    left: 30px; 
+
+    border: 0;
+    outline: 0;
+    border-bottom: solid 1px silver;
+    width: 75%;
+
+    font-size: 13px;
+    padding-left: 20px;
+    padding-bottom: 10px;
+
+    margin: auto;
+    left: 0;
+    right: 0;
+    
+    
+}
+
+
+
+#passbox:focus{
+    border-bottom: 1px solid black;
+}
+#forgot{
+
+
+    position: relative;
+    top: 138px;
+    left: 80px;
+    font-size: 10px;
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.877);
+    
+   
+}
+
+#forgot:hover{
+    text-decoration: underline;
+}
+
+#button{
+    position: absolute;
+    top: 250px;
+    height: 30px;
+    width: 80%;
+    border-radius: 25px;
+    color: rgb(255, 255, 255);
+
+    border: 0;
+    outline: 0;
+
+    font-family: 'med';
+
+    cursor:pointer;
+
+    left: 50%;
+    transform: translate(-50% );
+
+    background-image: linear-gradient(to right, #09ffffaf 5%, #f120bd );
+
+
+
+}
+
+
+#one{
+    position: absolute;
+    bottom: 170px;
+
+    left: 0%;
+    right:0%;
+    margin: auto;
+     
+    font-size: 10px;
+
+}
+
+#fblogo{
+    position: absolute;
+    bottom: 119px;
+    height: 35px;
+    width: 35px;
+    left: 30.5%;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+#twitterlogo{
+    position: absolute;
+    bottom: 120px;
+    height: 31px;
+    width: 31px;
+    left: 43%;
+    border-radius: 50%;
+    cursor: pointer;
+
+    margin: auto;
+    left: 0;
+    right: 0;
+
+}
+
+#google{
+    background-color: rgba(236, 43, 43, 0.808);
+    position: absolute;
+    bottom: 120px;
+    height: 31px;
+    width: 31px;
+    left: 58.5%;
+    border-radius: 50%;
+    cursor: pointer;
+
+}
+
+#googlelogo{
+    position: absolute;
+
+   
+
+    height: 16px;
+    width: 16px;
+
+    right: 0%;
+
+    top: 0%;
+    bottom: 0%;
+
+    margin: auto;
+
+    left: 0%;
+    
+}
+
+#two{
+    position: absolute;
+    bottom: 50px;
+    font-size: 10px;
+
+    margin: auto;
+    left: 0;
+    right: 0;
+
+}
+
+#signup{
+    position: absolute;
+    bottom: 30px;
+    font-size: 10px;
+    font-family: med;
+
+    margin: auto;
+    right: 0;
+    left: 0;
+
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.877);
+}
+
+
+#signup:hover{
+   text-decoration: underline;
+}
